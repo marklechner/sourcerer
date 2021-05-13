@@ -1,0 +1,8 @@
+# Target URLS to parse for candidates
+# provide html tag that encloses names to enable tool to parse them
+# format for cpture_tag should be: tag|attribute_type|name
+targets:
+  - url: https://events.hashicorp.com/hashitalks-day1
+    capture_tag: div|class|drill-rep-uc76dxxx9
+  - url: https://events.hashicorp.com/hashitalks-day2
+    capture_tag: div|class|drill-rep-uc76dxxx9
